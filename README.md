@@ -41,5 +41,5 @@ This is the official implementation in the paper **ITPATCH: An Invisible and Tri
 - Challenge 2: How to improve the robustness of ITPATCH based on the characteristics of fluorescent ink to make it more practical in the real world?
 - To address these challenges, we designed a four-module SPAE attack as shown in this Figure. The **Automatic Traffic Sign Localization** module first identifies the legal region to add the perturbation. Next, to simulate the fluorescent ink applied to the traffic sign, the **Fluorescence Modeling** module adds colored circles with different parameters to the valid region. This module simulates the perturbation effect of the fluorescent material. The **Fluorescence Optimization** module optimizes the parameters of the fluorescent material based on a customized loss function and uses a particle swarm optimization algorithm to find the most efficient combination of attack parameters. The **Robustness Improvement** module improves the robustness of SPAE in the real world by customizing multiple transformation distributions.
 
-![image-20240827150653810](/Users/dean/Library/Application Support/typora-user-images/image-20240827150653810.png)
+![image-20240827150653810](https://s2.loli.net/2024/08/27/YFm1hZ3KboQATWN.png)
 
