@@ -1,0 +1,1 @@
+- https://nlpr.ia.ac.cn/PAL/TRAFFICDATA/RECOGNITION.HTML

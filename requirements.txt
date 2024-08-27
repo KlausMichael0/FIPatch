@@ -1,0 +1,9 @@
+matplotlib==3.4.3
+numpy==1.21.2
+opencv-python==4.5.3.56
+pandas==1.3.3
+pyswarm==0.6
+scikit-image==0.18.3
+torch==1.9.0
+torchvision==0.10.0
+tqdm==4.62.3
