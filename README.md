@@ -16,8 +16,8 @@ This is the official implementation in the paper **ITPatch: An Invisible and Tri
    dataset:          datasets for model training and adversary attacks.
                      'ctsrd'; 'gtsrb'
    model_name:       black-box model.
-   				      'resnet50'; 'resnet101'; 'vgg13'; 'vgg16'.         —— in ctsrd dataset.
-     			         'cnn'; 'inceptionv3'; 'mobilenetv2'; 'googlenet'.  —— in gtsrb dataset.
+                     'resnet50'; 'resnet101'; 'vgg13'; 'vgg16'.         —— in ctsrd dataset.
+                     'cnn'; 'inceptionv3'; 'mobilenetv2'; 'googlenet'.  —— in gtsrb dataset.
    perturb_radius:   radius of the added perturbation.
    circle_number:    number of fluorescent circles.
    n_restarts:       n-random-restarts strategy for the particle swarm optimization.
