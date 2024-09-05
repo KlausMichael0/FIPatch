@@ -13,18 +13,18 @@ This is the official implementation in the paper **ITPatch: An Invisible and Tri
 2. Set the following parameters in `itpatch_attack.py`:
 
    ```python
-   dataset: datasets for model training and adversary attacks.
-   				'ctsrd'; 'gtsrb'
-   model_name: black-box model.
-   				'resnet50'; 'resnet101'; 'vgg13'; 'vgg16' —— in ctsrd dataset.
-     			'cnn'; 'inceptionv3'; 'mobilenetv2'; 'googlenet' —— in gtsrb dataset.
-   perturb_radius: radius of the added perturbation.
-   circle_number: number of fluorescent circles.
-   n_restarts: n-random-restarts strategy for the particle swarm optimization.
-   location: whether to record the perturbation center of a successful attack.
-   color_test: whether to fix the perturbation color.
-   color_used: if color_test is set to True, set the perturbation color
-   save_folder: record images of failed attacks
+   dataset:          datasets for model training and adversary attacks.
+                     'ctsrd'; 'gtsrb'
+   model_name:       black-box model.
+   				      'resnet50'; 'resnet101'; 'vgg13'; 'vgg16'.         —— in ctsrd dataset.
+     			         'cnn'; 'inceptionv3'; 'mobilenetv2'; 'googlenet'.  —— in gtsrb dataset.
+   perturb_radius:   radius of the added perturbation.
+   circle_number:    number of fluorescent circles.
+   n_restarts:       n-random-restarts strategy for the particle swarm optimization.
+   location:         whether to record the perturbation center of a successful attack.
+   color_test:       whether to fix the perturbation color.
+   color_used:       if color_test is set to True, set the perturbation color
+   save_folder:      record images of failed attacks
    ```
 
 3. Run the `itpatch_attack.py`
