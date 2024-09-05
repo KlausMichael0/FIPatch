@@ -45,5 +45,5 @@ This is the official implementation in the paper **ITPatch: An Invisible and Tri
   - The **Automatic Traffic Sign Localization** module automatically detects the valid region on a traffic sign for adding perturbations. The **Fluorescence Modeling** module simulates the application of fluorescent ink by adding colored circles with varying parameters to the identified region, replicating the perturbation effects. The **Fluorescence Optimization** module optimizes these parameters using goal-based and patch-aware loss functions and employs a particle swarm optimization algorithm to identify the most effective attack configuration. These three modules collectively address Challenge 1.
   - To tackle Challenge 2, the **Robustness Improvement** module customizes multiple transformation distributions to enhance the real-world robustness of ITPatch.
 
-![image-20240827150653810](https://s2.loli.net/2024/08/27/YFm1hZ3KboQATWN.png)
+![image-20240905153013413](https://s2.loli.net/2024/09/05/q9FaWp2jLBJdlGS.png)
 
