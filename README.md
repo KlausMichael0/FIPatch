@@ -36,13 +36,14 @@ This is the official implementation in the paper **ITPatch: An Invisible and Tri
 - [ITPatch](https://sites.google.com/view/itpatch-attack/home)
 
 
-### What is the framework?
+### What is the ITPatch?
 
-- In this work, we present ITPatch, a physical adversarial example triggered by UV light with fluorescent effects. Unlike other adversarial patches, ITPatch is able to be actively triggered by the attacker and is invisible when the attack is not triggered. To create ITPatch, it is important to address the following challenges: 
-
-  - Challenge 1: How to model fluorescent ink and find the most effective attack parameters for ITPatch?
-  - Challenge 2: How to improve the robustness of ITPatch based on the characteristics of fluorescent ink to make it more practical in the real world?
-- To address these challenges, we designed a four-module SPAE attack as shown in this Figure. The **Automatic Traffic Sign Localization** module first identifies the legal region to add the perturbation. Next, to simulate the fluorescent ink applied to the traffic sign, the **Fluorescence Modeling** module adds colored circles with different parameters to the valid region. This module simulates the perturbation effect of the fluorescent material. The **Fluorescence Optimization** module optimizes the parameters of the fluorescent material based on a customized loss function and uses a particle swarm optimization algorithm to find the most efficient combination of attack parameters. The **Robustness Improvement** module improves the robustness of SPAE in the real world by customizing multiple transformation distributions.
+- In this work, we design an invisible and triggered physical adversarial patch (ITPatch) using fluorescent ink. Unlike other adversarial patches, ITPatch can be actively triggered by ultraviolet light and is invisible when the attack is not triggered. To implement ITPatch in the physical world, it is essential to overcome the following challenges:
+  - Challenge 1: How to accurately model fluorescent ink and determine the most effective attack parameters for ITPatch?
+  - Challenge 2: How to enhance the robustness of ITPatch by leveraging the properties of fluorescent ink, making it more viable for real-world application?
+- To address these challenges, we propose a four-module ITPatch attack framework as shown in this Figure.
+  - The **Automatic Traffic Sign Localization** module automatically detects the valid region on a traffic sign for adding perturbations. The **Fluorescence Modeling** module simulates the application of fluorescent ink by adding colored circles with varying parameters to the identified region, replicating the perturbation effects. The **Fluorescence Optimization** module optimizes these parameters using goal-based and patch-aware loss functions and employs a particle swarm optimization algorithm to identify the most effective attack configuration. These three modules collectively address Challenge 1.
+  - To tackle Challenge 2, the **Robustness Improvement** module customizes multiple transformation distributions to enhance the real-world robustness of ITPatch.
 
 ![image-20240827150653810](https://s2.loli.net/2024/08/27/YFm1hZ3KboQATWN.png)
 
