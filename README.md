@@ -33,7 +33,7 @@ This is the official implementation in the paper **The Fluorescent Veil: A Steal
 
 ### Demonstration videos
 
-- [FIPatch](https://sites.google.com/view/itpatch-attack/home)
+- [FIPatch](https://sites.google.com/view/fipatch-attack/home)
 
 
 ### What is the FIPatch?
